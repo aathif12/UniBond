@@ -256,14 +256,46 @@ UOV © 2025 UniBond Team
 
 ---
 
+# UniBond
+
+... *(existing content above remains unchanged)* ...
 
 ## Screenshots
 
-### Home Screen
-![Home Screen](assets/screenshots/home.png)
+Here are some key screens of the **UniBond** app. Place your images in `documentation/Screenshots/`.
 
-### Profile Screen
-![Profile Screen](assets/screenshots/profile.png)
+```md
+### Start & Onboarding
+![Start Page](documentation/Screenshots/StartPage.png)
+![Signup Page (Student)](documentation/Screenshots/SignupPageForStudent.png)
+![Signup Page (Alumni)](documentation/Screenshots/SignupForAlumni.png)
 
-### Jobs Screen
-![Jobs Screen](assets/screenshots/jobs.png)
+### Core Features
+![Home Feed](documentation/Screenshots/HomeFeed.png)
+![Search Screen](documentation/Screenshots/SearchScreen.png)
+![Search Results](documentation/Screenshots/SearchResults.png)
+![Job Page](documentation/Screenshots/JobPage.png)
+![Saved Job](documentation/Screenshots/SavedJob.png)
+![Saved Project](documentation/Screenshots/SavedProject.png)
+
+### Profiles & Projects
+![My Profile](documentation/Screenshots/MyProfile.png)
+![Edit Profile](documentation/Screenshots/EditMyProfile.png)
+![Random User Profile](documentation/Screenshots/RandomUserProfile.png)
+![Following List](documentation/Screenshots/MyFollowingList.png)
+![Project Page](documentation/Screenshots/ProjectPage.png)
+![Project Status](documentation/Screenshots/ProjectStatusPage.png)
+
+### Communication & Notifications
+![Message Screen](documentation/Screenshots/MessageScreen.png)
+![Notifications](documentation/Screenshots/Notifications.png)
+
+### Authentication & Misc
+![Login Page](documentation/Screenshots/LoginPage.png)
+![Login Credentials](documentation/Screenshots/LoginCredintials.png)
+![Landing Page](documentation/Screenshots/LandingPage.png)
+![Dropdown List](documentation/Screenshots/DropDownList.png)
+```
+
+Push your screenshots to the `documentation/Screenshots` folder, and these links will automatically display images in your README.
+
