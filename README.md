@@ -51,7 +51,6 @@ The university admin manages verification, moderation, and high‑level analytic
 * **Skills:** Skill tags with proficiency levels and search
 * **Chat:** 1–1 and group chats powered by Stream Chat
 * **Notifications:** Realtime updates (applications, messages, approvals)
-* **Admin:** Review/verify profiles, moderate posts, export basic reports
 
 ## Architecture
 
@@ -83,7 +82,7 @@ Admin Web (Next.js or similar – optional)
 * **Jobs:** List · Detail · Apply · Save · Manage (for posters)
 * **Projects:** List · Detail · Add/Edit · Tagging · Collaborators
 * **Chat:** 1–1 and group conversations, unread indicators
-* **Admin (web):** Dashboard · Verifications · Moderation · Exports
+
 
 ## Data Model
 
@@ -161,22 +160,13 @@ EXPO_PUBLIC_SENTRY_DSN=
 
 ```bash
 # install deps
-pnpm install  # or yarn / npm
+ npm install  # or yarn / npm
 
 # start expo
-pnpm expo start
+ npm expo start
 # press i for iOS simulator, a for Android, or scan QR with Expo Go
 ```
 
-### Run the Admin Web (Optional)
-
-If using Next.js in `/apps/admin`:
-
-```bash
-cd apps/admin
-pnpm install
-pnpm dev
-```
 
 Configure the same Supabase env vars (without the `EXPO_PUBLIC_` prefix if not needed).
 
@@ -247,55 +237,44 @@ UOV © 2025 UniBond Team
 
 ---
 
-### Badges (optional)
+### Badges
 
 [![Expo](https://img.shields.io/badge/Expo-~-%23000000?logo=expo)](https://expo.dev/)
 [![Supabase](https://img.shields.io/badge/Supabase-~-%233FCF8E?logo=supabase)](https://supabase.com/)
 [![Stream](https://img.shields.io/badge/Stream%20Chat-~-%2300B5E2?logo=streamlit)](https://getstream.io/chat/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
----
-
-# UniBond
-
-... *(existing content above remains unchanged)* ...
 
 ## Screenshots
 
-Here are some key screens of the **UniBond** app. Place your images in `documentation/Screenshots/`.
+### Authentication & Start
+<img src="documentation/Screenshots/StartPage.png" width="300" />
+<img src="documentation/Screenshots/LandingPage.png" width="300" />
+<img src="documentation/Screenshots/LoginPage.png" width="300" />
+<img src="documentation/Screenshots/LoginCredintials.png" width="300" />
+<img src="documentation/Screenshots/SignupPageForStudent.png" width="300" />
+<img src="documentation/Screenshots/SignupForAlumni.png" width="300" />
 
-```md
-### Start & Onboarding
-![Start Page](documentation/Screenshots/StartPage.png)
-![Signup Page (Student)](documentation/Screenshots/SignupPageForStudent.png)
-![Signup Page (Alumni)](documentation/Screenshots/SignupForAlumni.png)
+### Home & Search
+<img src="documentation/Screenshots/HomeFeed.png" width="300" />
+<img src="documentation/Screenshots/SearchScreen.png" width="300" />
+<img src="documentation/Screenshots/SearchResults.png" width="300" />
 
-### Core Features
-![Home Feed](documentation/Screenshots/HomeFeed.png)
-![Search Screen](documentation/Screenshots/SearchScreen.png)
-![Search Results](documentation/Screenshots/SearchResults.png)
-![Job Page](documentation/Screenshots/JobPage.png)
-![Saved Job](documentation/Screenshots/SavedJob.png)
-![Saved Project](documentation/Screenshots/SavedProject.png)
+### Jobs & Projects
+<img src="documentation/Screenshots/JobPage.png" width="300" />
+<img src="documentation/Screenshots/SavedJob.png" width="300" />
+<img src="documentation/Screenshots/ProjectPage.png" width="300" />
+<img src="documentation/Screenshots/SavedProject.png" width="300" />
+<img src="documentation/Screenshots/ProjectStatusPage.png" width="300" />
 
-### Profiles & Projects
-![My Profile](documentation/Screenshots/MyProfile.png)
-![Edit Profile](documentation/Screenshots/EditMyProfile.png)
-![Random User Profile](documentation/Screenshots/RandomUserProfile.png)
-![Following List](documentation/Screenshots/MyFollowingList.png)
-![Project Page](documentation/Screenshots/ProjectPage.png)
-![Project Status](documentation/Screenshots/ProjectStatusPage.png)
+### Profiles
+<img src="documentation/Screenshots/MyProfile.png" width="300" />
+<img src="documentation/Screenshots/EditMyProfile.png" width="300" />
+<img src="documentation/Screenshots/RandomUserProfile.png" width="300" />
+<img src="documentation/Screenshots/MyFollowingList.png" width="300" />
 
 ### Communication & Notifications
-![Message Screen](documentation/Screenshots/MessageScreen.png)
-![Notifications](documentation/Screenshots/Notifications.png)
+<img src="documentation/Screenshots/MessageScreen.png" width="300" />
+<img src="documentation/Screenshots/Notifications.png" width="300" />
 
-### Authentication & Misc
-![Login Page](documentation/Screenshots/LoginPage.png)
-![Login Credentials](documentation/Screenshots/LoginCredintials.png)
-![Landing Page](documentation/Screenshots/LandingPage.png)
-![Dropdown List](documentation/Screenshots/DropDownList.png)
-```
-
-Push your screenshots to the `documentation/Screenshots` folder, and these links will automatically display images in your README.
 
